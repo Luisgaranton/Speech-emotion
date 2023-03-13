@@ -31,4 +31,4 @@ for dir in speech_audio_directory_list:
 
         speech_audio_df.Emotions.replace({1:'neutral', 2:'calm', 3:'happy', 4:'sad', 5:'angry', 6:'fear', 7:'disgust', 8:'surprise'}, inplace=True)
 speech_audio_df.head()
-speech_auido_df.to_csv('speech-audio.csv')
+speech_audio_df.to_csv('speech-audio.csv')
